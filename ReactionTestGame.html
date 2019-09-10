@@ -1,0 +1,33 @@
+<!DOCTYPE html> 
+
+<!–– Reaction Test Game ––>
+<html>
+	<head>
+		<title>Reaction Test</title>
+		
+		<meta charset="utf-8"/>
+		<meta name="author" content="Isabela Carrara">
+		<meta name="description" content="Reaction Test é um jogo que visa medir o tempo que a pessoa leva para reagir 
+		a um estimulo visual. Figuras aparecem aleatoriamente na página e o jogador deve clicar sobre elas.
+		O tempo de reação é marcado e o melhor tempo armazenado.">
+		<meta name="keywords" content="Jogo, game, reaction, test, tempo, reação">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<link rel="stylesheet" type="text/css" media="screen and (max-width: 480px)" href="smartphoneportrait.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+		
+	</head>
+	
+	<body>
+		<div id="paginaContainer">
+			<p><h1 class="centeredTitle">Reaction Test</h1></p>
+			<p class="centerInstruction">Clique o mais rápido possível na figura.</p>
+			<p class="centerTimer">Seu tempo:<span id="seconds" class="negrito centerTimerSpan">&nbsp;0.000s</span><br/>&nbsp;&nbsp; Melhor tempo:<span id="melhorTempo" class="negrito centerBestTimerSpan">&nbsp;0.000s</span></p>
+			<div id="container">
+				<div id="figura"></div>
+				<script type="text/javascript" src="script2.js"></script>
+			</div>
+		</div>
+	</body>
+</html>
